@@ -40,7 +40,7 @@ static void check_path(deque<int>& path, set<int>& pathSet, int vis[], list<int>
 }
 
 /* Iterative method, uses set along with deque to
- * store current path and find cycles.
+ * store current path and find cycles. DIRECTED GRAPHS.
  */
 bool Graph :: isCyclic()
 {
